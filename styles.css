@@ -1,0 +1,307 @@
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, .15);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+#navbar {
+  height: 80px; /* Set the desired height for the navbar */
+}
+
+.card {
+  border: 2px solid white ; /* Add a 2px solid red border */
+}
+
+.mt-4 {
+  margin-top: 100px !important; /* 1 cm below the navbar */
+}
+.highlight-card {
+  background-color: white; /* Light background color */
+  border: 2px solid snow; /* Border color */
+  box-shadow: 0 4px 15px rgba(164, 167, 171, 0.2); /* Shadow effect */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+  position: relative; /* Added position relative */
+  top: -50px; /* Moved the cards up by 50px */
+
+}
+
+.highlight-card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+  box-shadow: 0 8px 25px rgba(152, 155, 158, 0.4); /* Increase shadow on hover */
+}
+
+.project-image {
+  border: 50px solid rgb(63, 125, 22); /* Set the border width and color */
+  border-radius: 10px; /* Optional: adds rounded corners */
+}
+
+.project-image-1 {
+  border: 50px solid rgb(54, 94, 224); /* Set the border width and color */
+  border-radius: 10px; /* Optional: adds rounded corners */
+}
+
+.project-image-2 {
+  border: 50px solid rgb(203, 44, 44); /* Set the border width and color */
+  border-radius: 10px; /* Optional: adds rounded corners */
+}
+
+.custom-yellow {
+  margin-top: 50px;
+  color: rgb(63, 125, 22); /* RGB value for the specified yellow color */
+}
+
+.custom-blue {
+  margin-top: 50px;
+  color:rgb(54, 94, 224); /* RGB value for the specified yellow color */
+}
+
+.custom-red {
+  margin-top: 50px;
+  color:  rgb(203, 44, 44); /* RGB value for the specified yellow color */
+}
+
+.interested-section {
+  padding: 40px 20px;
+  background-color: #f8f9fa; /* Light background color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between icons */
+  margin: 20px 0; /* Space above and below icons */
+}
+.contact-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #333; /* Text color */
+  background-color: #fff; /* Button background */
+  border: 2px solid #e0e4e8; /* Border color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 15px;
+  width: 100px; /* Fixed width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for 3D effect */
+  transition: transform 0.2s; /* Smooth transition */
+}
+
+.contact-button img {
+  width: 40px; /* Icon size */
+  margin-bottom: 5px; /* Space between icon and text */
+}
+
+.contact-button:hover {
+  transform: translateY(-3px); /* Lift effect on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.skills-interested-section {
+  background-color: rgb(112, 135, 225); /* Light background color */
+  padding: 50px 0; /* Add top and bottom padding */
+  font-family: 'Poppins', sans-serif; /* Use the Roboto font */
+  font-size: 40px; /* Set the font size */
+  font-weight: bold; /* Set the font weight */
+  color: white; /* Set the text color */
+  margin: 20px 0; /* Add some margin */
+}
+
+.circle-badge {
+  width: 100px; /* Set the width of the circle */
+  height: 100px; /* Set the height of the circle */
+  background-color: rgb(103, 128, 210); /* Background color for the circle */
+  color: white; /* Text color */
+  border-radius: 50%; /* Make it a circle */
+  font-weight: bold; /* Make the text bold */
+  margin-right: 15px; /* Space between the circle and the content */
+}
+.circle-badge span {
+  font-size: 14px; /* Adjust the font size as needed */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%; /* Adjust width as needed */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Adjust position */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* Background color for visibility */
+  border-radius: 50%; /* Round shape */
+  padding: 10px; /* Padding around the icon */
+}
+
+.carousel-control-prev-icon:focus,
+.carousel-control-next-icon:focus {
+  outline: none; /* Remove focus outline */
+}
+
+.name {
+  font-family: 'Poppins', sans-serif; /* Use the Roboto font */
+  font-size: 45px; /* Set the font size */
+  font-weight: bold; /* Set the font weight */
+  color: #444141; /* Set the text color */
+  margin: 20px 0; /* Add some margin */
+}
+body {
+  background-image: url('image/bckgd.jpg'); /* Replace with your image path */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-size: cover; /* Cover the entire page */
+  background-position: center; /* Center the image */
+  margin: 0; /* Remove default margin */
+  height: 350vh; /* Full height of the viewport */
+}
+
+.skills-section {
+  
+  font-family: 'Poppins', sans-serif; /* Use the Roboto font */
+  font-size: 40px; /* Set the font size */
+  font-weight: bold; /* Set the font weight */
+  color: black; /* Set the text color */
+  margin: 20px 0; /* Add some margin */
+}
+
+.skills-section-1 {
+  
+  font-family: 'Poppins', sans-serif; /* Use the Roboto font */
+  font-size: 40px; /* Set the font size */
+ 
+  color: black; /* Set the text color */
+  margin: 20px 0; /* Add some margin */
+}
+
+.experience-heading {
+  margin-bottom: 40px; /* Adjust the value as needed */
+}
+
+.footer {
+  background-color: #f8f9fa; /* Light background color */
+  color: #333; /* Text color */
+  border-top: 1px solid #dee2e6; /* Top border */
+}
+
+.footer p {
+  margin: 0; /* Remove default margin */
+}
+
+.footer a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.contact-info {
+  display: none; /* Initially hide the contact info */
+}
+
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+.logo-circle {
+  display: inline-flex; /* Use inline-flex to center the icon */
+  justify-content: center; /* Center the icon horizontally */
+  align-items: center; /* Center the icon vertically */
+  width: 30px; /* Set width for the circle */
+  height: 30px; /* Set height for the circle */
+  border-radius: 50%; /* Make it circular */
+  background-color: #007bff; /* Blue background color */
+  color: white; /* White icon color */
+  text-decoration: none; /* Remove underline from links */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.logo-circle:hover {
+  background-color: #588fcb; /* Darker blue on hover */
+}
+
+.social-icons {
+  margin-right: 20px; /* Add space between logos and content */
+}
+
+.word-display {
+  font-size: 1rem; /* Adjust font size as needed */
+  
+  color: #5a5b5c; /* Change color if needed */
+  display: inline-block; /* Keep words inline */
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+}
+
+.mySlides {
+  display: none; /* Hide all slides by default */
+  text-align: center; /* Center text */
+}
+
+.img-fluid {
+  max-width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.fade {
+  animation: fade 1s; /* Fade effect */
+}
+
+@keyframes fade {
+  from { opacity: 0.4; }
+  to { opacity: 1; }
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
