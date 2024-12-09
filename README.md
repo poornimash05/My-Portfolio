@@ -26,3 +26,25 @@ Email: shikhapoornima@gmail.com
 Phone: (+91)-8851265776
 
 Below is some insight of web app for portfolio:
+
+https://github.com/user-attachments/assets/92d2eb7f-5c63-45cb-9f4d-662121b60060
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
